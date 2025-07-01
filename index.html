@@ -7,16 +7,18 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="container">
+  <main class="container">
     <h1>Online Quiz Game</h1>
-    <div id="quiz">
-      <div id="question">Question text</div>
+    <section id="quiz">
+      <div id="timer">Time left: <span id="time-remaining">10</span>s</div>
+      <div id="question">Loading question...</div>
       <div id="options"></div>
       <button id="next-btn">Next Question</button>
-    </div>
-    <div id="result"></div>
-  </div>
-
+    </section>
+    <section id="result"></section>
+    <button id="restart-btn" style="display:none;">Restart Quiz</button>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>
+
